@@ -1,9 +1,17 @@
 # -*- coding:utf-8 _*-
 from .main import main
+from .posts import post
+from .example import example
+from .users import user
+from .login import login
 
 # 蓝本配置
 DEFAULT_BLUEPRINT = (
     (main, ''),
+    (post, ''),
+    (example, ''),
+    (user, ''),
+    (login, ''),
 )
 
 

@@ -9,3 +9,10 @@ main = Blueprint('main', __name__)
 @main.route('/index/')
 def index():
     return "终于见到你了"
+
+
+@main.route('/index/<string:name>')
+def hello(name):
+    return "终于见到你了 %s" % name
+
+

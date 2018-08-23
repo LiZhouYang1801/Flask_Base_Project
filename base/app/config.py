@@ -24,7 +24,7 @@ class Config:
 
 # 开发环境配置
 class DevelopmentConfig(Config):
-    SQLALCHEMY_DATABASE_URI = "mysql+pymysql://root:123456@localhost/lzy"
+    SQLALCHEMY_DATABASE_URI = "mysql+pymysql://root:123456@119.23.30.54/lzy"
 
 
 # 测试环境配置
